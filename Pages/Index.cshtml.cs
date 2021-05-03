@@ -6,13 +6,16 @@ namespace BOP.Pages
 {
     public class IndexModel : PageModel
     {
+        private Double pingTime;
+        
         
         public static String GraphTitle = "UWU";
-        public static Double Visits = 0;
-        public string OnGet()
+
+        
+        public void OnGet()
         {
             
-            return GraphTitle;
+            return;
         }
     }
 }
