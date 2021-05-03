@@ -7,11 +7,12 @@ namespace BOP.Pages
     public class IndexModel : PageModel
     {
         
-        public static String Message = "UWU";
+        public static String GraphTitle = "UWU";
+        public static Double Visits = 0;
         public string OnGet()
         {
-           
-            return Message;
+            
+            return GraphTitle;
         }
     }
 }
